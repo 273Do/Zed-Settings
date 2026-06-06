@@ -65,9 +65,8 @@
     "title_bar.background": "#00000050",
     "panel.background": "#00000020",
     // "border.variant": "#00000000",
-    "scrollbar.track.border": "#00000000",
+    "scrollbar.track.border": "#00000000"
     // "editor.active_line.background": "#00000000",
-    "accents": ["#ffff4033", "#7fff7f33", "#ff7fff33", "#4fecec33"]
   },
 
   // ─── Editor ───────────────────────────────────────────────────────────────
