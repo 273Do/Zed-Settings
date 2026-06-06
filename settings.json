@@ -1,0 +1,138 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // ─── UI & Layout ─────────────────────────────────────────────────────────
+  "ui_font_size": 16,
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "never"
+  },
+  "status_bar": {
+    "active_language_button": false,
+    "cursor_position_button": false,
+    "active_encoding_button": "disabled"
+  },
+
+  // ─── Panels ───────────────────────────────────────────────────────────────
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "debugger": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left",
+    "auto_fold_dirs": false
+  },
+
+  // ─── Theme ────────────────────────────────────────────────────────────────
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "VSCode Dark Modern"
+  },
+
+  // ─── Editor Theme Overrides ───────────────────────────────────────────────
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    // "background": "#4c464290",
+    "background": "#00000040",
+    "editor.background": "#00000035",
+    "editor.gutter.background": "#00000035",
+    "tab_bar.background": "#00000000",
+    "terminal.background": "#00000000",
+    "toolbar.background": "#00000050",
+    "tab.active_background": "#00000050",
+    "tab.inactive_background": "#00000000",
+    "status_bar.background": "#00000050",
+    "title_bar.background": "#00000050",
+    "panel.background": "#00000020",
+    // "border.variant": "#00000000",
+    "scrollbar.track.border": "#00000000",
+    // "editor.active_line.background": "#00000000",
+    "accents": ["#ffff4033", "#7fff7f33", "#ff7fff33", "#4fecec33"]
+  },
+
+  // ─── Editor ───────────────────────────────────────────────────────────────
+  "buffer_font_size": 12,
+  "buffer_font_family": "Menlo",
+  "buffer_font_fallbacks": ["Monaco", "Courier New", "monospace"],
+  "tab_size": 2,
+  "show_whitespaces": "boundary",
+  // "indent_guides": {
+  //   "enabled": true,
+  // },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_parameter_hints": true,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "search": {
+    "button": true
+  },
+
+  // ─── Terminal ─────────────────────────────────────────────────────────────
+  "terminal": {
+    "button": false,
+    "font_family": "MesloLGS NF"
+  },
+
+  // ─── AI Agent ─────────────────────────────────────────────────────────────
+  "agent": {
+    "dock": "right",
+    "flexible": true,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+
+  // ─── LSP & Session ────────────────────────────────────────────────────────
+  "global_lsp_settings": {
+    "button": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  }
+}
