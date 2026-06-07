@@ -30,7 +30,8 @@
     "dock": "left"
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
+    "sort_by_path": true
   },
   "project_panel": {
     "dock": "left",
@@ -133,5 +134,14 @@
   },
   "session": {
     "trust_all_worktrees": true
+  },
+
+  // ─── Wakatime ──────────────────────────────────────────────────────────────
+  "lsp": {
+    "wakatime": {
+      "initialization_options": {
+        "api-key": "API KEY HERE"
+      }
+    }
   }
 }
