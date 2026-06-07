@@ -6,27 +6,9 @@
     }
   },
   {
-    "context": "Workspace",
-    "bindings": {
-      "cmd-g": "git_panel::ToggleFocus"
-    },
-    "unbind": {
-      "ctrl-shift-g": "git_panel::ToggleFocus"
-    }
-  },
-  {
     "context": "Terminal",
     "bindings": {
       "shift-enter": ["terminal::SendText", "\u001b\r"]
-    }
-  },
-  {
-    "context": "GitPanel && ChangesList && !GitBranchSelector",
-    "bindings": {
-      "cmd-g": "git_panel::ToggleFocus"
-    },
-    "unbind": {
-      "escape": "git_panel::ToggleFocus"
     }
   }
 ]
