@@ -21,19 +21,24 @@
 
   // ─── Panels ───────────────────────────────────────────────────────────────
   "outline_panel": {
+    "button": false,
     "dock": "left"
   },
   "collaboration_panel": {
+    "button": false,
     "dock": "left"
   },
   "debugger": {
+    "button": false,
     "dock": "left"
   },
   "git_panel": {
+    "button": false,
     "dock": "left",
     "sort_by_path": true
   },
   "project_panel": {
+    "button": false,
     "dock": "left",
     "auto_fold_dirs": false
   },
@@ -106,7 +111,7 @@
     }
   },
   "search": {
-    "button": true
+    "button": false
   },
 
   // ─── Terminal ─────────────────────────────────────────────────────────────
