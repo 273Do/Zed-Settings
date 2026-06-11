@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // ─── UI & Layout ─────────────────────────────────────────────────────────
+  "cli_default_open_behavior": "new_window",
   "ui_font_size": 16,
   "base_keymap": "VSCode",
   "minimap": {
@@ -119,6 +120,9 @@
     "button": false,
     "font_family": "MesloLGS NF"
   },
+
+  // ─── AI Settings ──────────────────────────────────────────────────────────
+  "disable_ai": false,
 
   // ─── AI Agent ─────────────────────────────────────────────────────────────
   "agent": {
