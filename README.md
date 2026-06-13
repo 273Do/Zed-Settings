@@ -1,6 +1,6 @@
 # Zed Settings
 
-Personal configuration files for the [Zed](https://zed.dev) editor.
+273* configuration files for the [Zed](https://zed.dev) editor.
 
 ## Files
 
