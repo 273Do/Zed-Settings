@@ -2,6 +2,10 @@
 
 273* configuration files for the [Zed](https://zed.dev) editor.
 
+## Preview
+
+<img width="1746" height="1275" alt="スクリーンショット 2026-06-13 23 01 44" src="https://github.com/user-attachments/assets/952dc35b-2533-46a2-a8ef-7cff0cded14e" />
+
 ## Files
 
 | File | Description |
