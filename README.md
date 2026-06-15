@@ -51,12 +51,25 @@ All panels are docked to the **left** with their toolbar buttons hidden to keep 
 
 `background.appearance` is set to `blurred` with semi-transparent RGBA values across all major surfaces, giving a frosted-glass effect over the desktop wallpaper.
 
-Key overrides:
-- `background`: `#00000060`
-- `editor.background`: `#00000035`
-- `tab_bar.background`: `#00000035`
-- `terminal.background`: `#00000000` (fully transparent)
-- `status_bar.background` / `title_bar.background`: `#00000080`
+<details>
+<summary>Key overrides</summary>
+
+| Key | Value | Notes |
+|-----|-------|-------|
+| `background` | `#00000060` | |
+| `editor.background` | `#00000035` | |
+| `editor.gutter.background` | `#00000050` | |
+| `tab_bar.background` | `#00000035` | |
+| `tab.active_background` | `#00000050` | |
+| `tab.inactive_background` | `#00000000` | Fully transparent |
+| `toolbar.background` | `#00000050` | |
+| `terminal.background` | `#00000000` | Fully transparent |
+| `panel.background` | `#00000010` | |
+| `status_bar.background` | `#00000080` | |
+| `title_bar.background` | `#00000080` | |
+| `scrollbar.track.border` | `#00000000` | Fully transparent |
+
+</details>
 
 ### Editor
 
@@ -92,20 +105,33 @@ Key overrides:
 - **Global LSP button** hidden from the status bar.
 - **Session** — `trust_all_worktrees: true` for seamless multi-root workspace support.
 - **Wakatime** — configured via `lsp` settings (replace `"API KEY HERE"` with your actual key).
+- **Discord Presence** — configured via `lsp` settings with `state: false` and `details: "Coding in {language:lo}"`.
 
-### Auto-installed Extensions
+### Extensions
 
-These extensions are installed automatically on first launch:
+Extensions managed via `auto_install_extensions`:
 
-- `dockerfile`
-- `docker-compose`
-- `glsl`
-- `git-firefly`
-- `html`
-- `material-icon-theme`
-- `python-autodoc-lsp`
-- `vscode-dark-modern`
-- `wakatime`
+**Enabled**
+
+| Extension | Notes |
+|-----------|-------|
+| `material-icon-theme` | File icon theme |
+| `rainbow-csv` | CSV syntax highlighting |
+| `vscode-dark-modern` | Dark theme |
+
+**Disabled** (set to `false` — installed on demand)
+
+| Extension | Category |
+|-----------|----------|
+| `astro` | Language |
+| `dockerfile` | Language |
+| `docker-compose` | Language |
+| `glsl` | Language |
+| `git-firefly` | Language |
+| `html` | Language |
+| `python-autodoc-lsp` | Language |
+| `discord-presence` | Tool |
+| `wakatime` | Tool |
 
 ---
 
