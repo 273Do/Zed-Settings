@@ -82,9 +82,6 @@
   "buffer_font_fallbacks": ["Monaco", "Courier New", "monospace"],
   "tab_size": 2,
   "show_whitespaces": "boundary",
-  // "indent_guides": {
-  //   "enabled": true,
-  // },
   "indent_guides": {
     "enabled": true,
     "line_width": 1,
@@ -153,7 +150,7 @@
       }
     },
 
-    // ─── discord presence ──────────────────────────────────────────────────────
+    // ─── Discord presence ──────────────────────────────────────────────────────
     "discord_presence": {
       "initialization_options": {
         "state": false,
