@@ -145,27 +145,40 @@
     "trust_all_worktrees": true
   },
 
-  // ─── Wakatime ──────────────────────────────────────────────────────────────
   "lsp": {
+    // ─── Wakatime ──────────────────────────────────────────────────────────────
     "wakatime": {
       "initialization_options": {
         "api-key": "API KEY HERE"
+      }
+    },
+
+    // ─── discord presence ──────────────────────────────────────────────────────
+    "discord_presence": {
+      "initialization_options": {
+        "state": false,
+        "details": "Coding in {language:lo}"
       }
     }
   },
 
   // ─── Auto install Extensions ────────────────────────────────────────────────
   "auto_install_extensions": {
+    "material-icon-theme": true,
+    "rainbow-csv": true,
+    "vscode-dark-modern": true,
+
+    // disabled languages
     "astro": true,
     "dockerfile": true,
     "docker-compose": true,
     "glsl": true,
     "git-firefly": true,
     "html": true,
-    "material-icon-theme": true,
     "python-autodoc-lsp": true,
-    "rainbow-csv": true,
-    "vscode-dark-modern": true,
-    "wakatime": true
+
+    // disabled tools
+    "discord-presence": false,
+    "wakatime": false
   }
 }
