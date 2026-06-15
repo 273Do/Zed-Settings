@@ -156,6 +156,7 @@
 
   // ─── Auto install Extensions ────────────────────────────────────────────────
   "auto_install_extensions": {
+    "astro": true,
     "dockerfile": true,
     "docker-compose": true,
     "glsl": true,
@@ -163,6 +164,7 @@
     "html": true,
     "material-icon-theme": true,
     "python-autodoc-lsp": true,
+    "rainbow-csv": true,
     "vscode-dark-modern": true,
     "wakatime": true
   }
