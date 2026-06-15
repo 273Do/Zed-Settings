@@ -169,13 +169,13 @@
     "vscode-dark-modern": true,
 
     // disabled languages
-    "astro": true,
-    "dockerfile": true,
-    "docker-compose": true,
-    "glsl": true,
-    "git-firefly": true,
-    "html": true,
-    "python-autodoc-lsp": true,
+    "astro": false,
+    "dockerfile": false,
+    "docker-compose": false,
+    "glsl": false,
+    "git-firefly": false,
+    "html": false,
+    "python-autodoc-lsp": false,
 
     // disabled tools
     "discord-presence": false,
