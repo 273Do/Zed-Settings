@@ -82,6 +82,7 @@
   "buffer_font_fallbacks": ["Monaco", "Courier New", "monospace"],
   "tab_size": 2,
   "show_whitespaces": "boundary",
+  "extend_comment_on_newline": false,
   "indent_guides": {
     "enabled": true,
     "line_width": 1,
