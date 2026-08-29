@@ -8,11 +8,11 @@
 
 ## Files
 
-| File | Description |
-|------|-------------|
-| `settings.json` | Main editor settings |
-| `keymap.json` | Custom key bindings |
-| `tasks.json` | Custom task definitions |
+| File            | Description             |
+| --------------- | ----------------------- |
+| `settings.json` | Main editor settings    |
+| `keymap.json`   | Custom key bindings     |
+| `tasks.json`    | Custom task definitions |
 
 ---
 
@@ -20,32 +20,32 @@
 
 ### UI & Layout
 
-| Setting | Value |
-|---------|-------|
-| `cli_default_open_behavior` | `new_window` — CLI always opens a new window |
-| `ui_font_size` | `16` |
-| `base_keymap` | `VSCode` |
-| `minimap` | Disabled |
-| `status_bar` | Language button, cursor position, and encoding indicator hidden |
+| Setting                     | Value                                                           |
+| --------------------------- | --------------------------------------------------------------- |
+| `cli_default_open_behavior` | `new_window` — CLI always opens a new window                    |
+| `ui_font_size`              | `16`                                                            |
+| `base_keymap`               | `VSCode`                                                        |
+| `minimap`                   | Disabled                                                        |
+| `status_bar`                | Language button, cursor position, and encoding indicator hidden |
 
 ### Panels
 
 All panels are docked to the **left** with their toolbar buttons hidden to keep the UI minimal.
 
-| Panel | Notes |
-|-------|-------|
-| Outline | button hidden |
-| Collaboration | button hidden |
-| Debugger | button hidden |
-| Git | button hidden, `sort_by_path: true` |
-| Project | button hidden, `auto_fold_dirs: false` |
+| Panel         | Notes                                  |
+| ------------- | -------------------------------------- |
+| Outline       | button hidden                          |
+| Collaboration | button hidden                          |
+| Debugger      | button hidden                          |
+| Git           | button hidden, `sort_by_path: true`    |
+| Project       | button hidden, `auto_fold_dirs: false` |
 
 ### Theme
 
-| Mode | Light | Dark |
-|------|-------|------|
+| Mode  | Light               | Dark                |
+| ----- | ------------------- | ------------------- |
 | Icons | Material Icon Theme | Material Icon Theme |
-| UI | Ayu Light | VSCode Dark Modern |
+| UI    | Ayu Light           | VSCode Dark Modern  |
 
 ### Theme Overrides (Transparent / Blurred)
 
@@ -54,50 +54,50 @@ All panels are docked to the **left** with their toolbar buttons hidden to keep 
 <details>
 <summary>Key overrides</summary>
 
-| Key | Value | Notes |
-|-----|-------|-------|
-| `background` | `#00000060` | |
-| `editor.background` | `#00000035` | |
-| `editor.gutter.background` | `#00000050` | |
-| `tab_bar.background` | `#00000035` | |
-| `tab.active_background` | `#00000050` | |
-| `tab.inactive_background` | `#00000000` | Fully transparent |
-| `toolbar.background` | `#00000050` | |
-| `terminal.background` | `#00000000` | Fully transparent |
-| `panel.background` | `#00000010` | |
-| `status_bar.background` | `#00000080` | |
-| `title_bar.background` | `#00000080` | |
-| `scrollbar.track.border` | `#00000000` | Fully transparent |
+| Key                        | Value       | Notes             |
+| -------------------------- | ----------- | ----------------- |
+| `background`               | `#00000060` |                   |
+| `editor.background`        | `#00000035` |                   |
+| `editor.gutter.background` | `#00000050` |                   |
+| `tab_bar.background`       | `#00000035` |                   |
+| `tab.active_background`    | `#00000050` |                   |
+| `tab.inactive_background`  | `#00000000` | Fully transparent |
+| `toolbar.background`       | `#00000050` |                   |
+| `terminal.background`      | `#00000000` | Fully transparent |
+| `panel.background`         | `#00000010` |                   |
+| `status_bar.background`    | `#00000080` |                   |
+| `title_bar.background`     | `#00000080` |                   |
+| `scrollbar.track.border`   | `#00000000` | Fully transparent |
 
 </details>
 
 ### Editor
 
-| Setting | Value |
-|---------|-------|
-| Font family | `Menlo` (fallbacks: Monaco → Courier New → monospace) |
-| Font size | `12` |
-| Tab size | `2` |
-| Show whitespaces | `boundary` |
-| Indent guides | Enabled, indent-aware coloring, active line width `2` |
-| Tab bar | File icons and git status enabled |
-| Inlay hints | Fully enabled (parameter, value, type, and other hints) |
-| Inline diagnostics | Enabled |
-| Search button | Hidden |
+| Setting            | Value                                                   |
+| ------------------ | ------------------------------------------------------- |
+| Font family        | `Menlo` (fallbacks: Monaco → Courier New → monospace)   |
+| Font size          | `12`                                                    |
+| Tab size           | `2`                                                     |
+| Show whitespaces   | `boundary`                                              |
+| Indent guides      | Enabled, indent-aware coloring, active line width `2`   |
+| Tab bar            | File icons and git status enabled                       |
+| Inlay hints        | Fully enabled (parameter, value, type, and other hints) |
+| Inline diagnostics | Enabled                                                 |
+| Search button      | Hidden                                                  |
 
 ### Terminal
 
-| Setting | Value |
-|---------|-------|
+| Setting     | Value                                             |
+| ----------- | ------------------------------------------------- |
 | Font family | `MesloLGS NF` (Powerline/Nerd Font patched Meslo) |
-| Button | Hidden |
+| Button      | Hidden                                            |
 
 ### AI / Agent
 
-| Setting | Value |
-|---------|-------|
-| `disable_ai` | `false` |
-| Agent dock | `right`, flexible layout |
+| Setting      | Value                        |
+| ------------ | ---------------------------- |
+| `disable_ai` | `false`                      |
+| Agent dock   | `right`, flexible layout     |
 | Agent server | `claude-acp` (registry type) |
 
 ### LSP & Session
@@ -113,34 +113,37 @@ Extensions managed via `auto_install_extensions`:
 
 **Enabled**
 
-| Extension | Notes |
-|-----------|-------|
-| `material-icon-theme` | File icon theme |
-| `rainbow-csv` | CSV syntax highlighting |
-| `vscode-dark-modern` | Dark theme |
+| Extension             | Notes                   |
+| --------------------- | ----------------------- |
+| `cspell`              | Spell checker           |
+| `material-icon-theme` | File icon theme         |
+| `rainbow-csv`         | CSV syntax highlighting |
+| `vscode-dark-modern`  | Dark theme              |
 
 **Disabled** (set to `false` — installed on demand)
 
-| Extension | Category |
-|-----------|----------|
-| `astro` | Language |
-| `dockerfile` | Language |
-| `docker-compose` | Language |
-| `glsl` | Language |
-| `git-firefly` | Language |
-| `html` | Language |
+| Extension            | Category |
+| -------------------- | -------- |
+| `astro`              | Language |
+| `dockerfile`         | Language |
+| `docker-compose`     | Language |
+| `glsl`               | Language |
+| `git-firefly`        | Language |
+| `html`               | Language |
 | `python-autodoc-lsp` | Language |
-| `discord-presence` | Tool |
-| `wakatime` | Tool |
+| `discord-presence`   | Tool     |
+| `wakatime`           | Tool     |
 
 ---
 
 ## keymap.json
 
-| Binding | Context | Action |
-|---------|---------|--------|
-| `cmd-g` | Global | Toggle Git panel |
-| `cmd-e` | Global | Toggle Project panel |
+| Binding       | Context  | Action                                                                       |
+| ------------- | -------- | ---------------------------------------------------------------------------- |
+| `cmd-g`       | Global   | Toggle Git panel                                                             |
+| `cmd-e`       | Global   | Toggle Project panel                                                         |
+| `cmd-shift-l` | Global   | Select line (`editor::SelectLine`)                                           |
+| `cmd-l`       | Editor   | Copy `file:line` reference to clipboard (e.g. `src/index.ts:10-30`)          |
 | `shift-enter` | Terminal | Send `ESC + Enter` (insert a literal newline without submitting the command) |
 
 ---
@@ -150,6 +153,10 @@ Extensions managed via `auto_install_extensions`:
 ### Example Task (default template)
 
 A placeholder task demonstrating available task configuration options such as `use_new_terminal`, `allow_concurrent_runs`, `reveal`, `hide`, `shell`, and `save`.
+
+### Copy file:line ref
+
+Copies a `file:line` reference of the current selection to the clipboard. If multiple lines are selected, the range is included (e.g. `src/index.ts:10-30`). Triggered via `cmd-l` in the editor.
 
 ### GLSL Viewer
 
