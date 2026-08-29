@@ -1,14 +1,25 @@
 [
+  // Shortcut
   {
     "bindings": {
       "cmd-g": "git_panel::Toggle",
-      "cmd-e": "project_panel::Toggle"
+      "cmd-e": "project_panel::Toggle",
+      "cmd-shift-l": "editor::SelectLine"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
       "shift-enter": ["terminal::SendText", "\u001b\r"]
+    }
+  },
+
+  // cmd-l でファイル名:選択行をクリップボードにコピー (例: src/index.ts:10-30)
+  // cmd-shift-l で行選択
+  {
+    "context": "Editor && !Terminal",
+    "bindings": {
+      "cmd-l": ["task::Spawn", { "task_name": "Copy file:line ref" }]
     }
   }
 ]

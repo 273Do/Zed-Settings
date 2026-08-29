@@ -57,6 +57,16 @@
     // "tags": []
   },
 
+  // ファイル名:行 参照をクリップボードにコピーしターミナルに貼り付け
+  // 例: src/index.ts:10-30
+  {
+    "label": "Copy file:line ref",
+    "command": "NL=$(printf '%s' \"$ZED_SELECTED_TEXT\" | wc -l | tr -d ' '); if [ \"$NL\" -eq 0 ]; then REF=\"$ZED_RELATIVE_FILE:$ZED_ROW\"; else REF=\"$ZED_RELATIVE_FILE:$ZED_ROW-$((ZED_ROW + NL))\"; fi; printf '%s' \"$REF\" | pbcopy",
+    "hide": "always",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false
+  },
+
   // GLSL Viewer
   {
     "label": "Open glsl view",
