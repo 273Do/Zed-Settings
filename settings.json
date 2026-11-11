@@ -148,7 +148,7 @@
     // ─── Wakatime ──────────────────────────────────────────────────────────────
     "wakatime": {
       "initialization_options": {
-        "api-key": "API KEY HERE"
+        "api-key": "API-KEY-HERE"
       }
     },
 
@@ -157,6 +157,19 @@
       "initialization_options": {
         "state": false,
         "details": "Coding in {language:lo}"
+      }
+    },
+
+    // ─── Comment Translate ──────────────────────────────────────────────────────
+    "comment-translate": {
+      "settings": {
+        "provider": "deepl",
+        "google_api_key": "API-KEY-HERE",
+        "deepl_api_key": "API-KEY-HERE",
+        "target_language": "ja",
+        "source_language": "auto",
+        "timeout_ms": 1500,
+        "persist_cache": true
       }
     }
   },
@@ -167,6 +180,7 @@
     "material-icon-theme": true,
     "rainbow-csv": true,
     "vscode-dark-modern": true,
+    "comment-translate": true,
 
     // disabled languages
     "astro": false,
