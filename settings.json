@@ -180,9 +180,9 @@
     "material-icon-theme": true,
     "rainbow-csv": true,
     "vscode-dark-modern": true,
-    "comment-translate": true,
 
     // disabled languages
+    "oxc": false,
     "astro": false,
     "dockerfile": false,
     "docker-compose": false,
@@ -193,6 +193,7 @@
 
     // disabled tools
     "discord-presence": false,
-    "wakatime": false
+    "wakatime": false,
+    "comment-translate": false
   }
 }
